@@ -14,6 +14,17 @@ class Profile extends \Limbonia\Controller
   use \Limbonia\Traits\Controller\HasModel;
 
   /**
+   * List of components that this controller contains along with their descriptions
+   *
+   * @var array
+   */
+  protected static $hComponent =
+  [
+    'search' => 'This is the ability to search and display data.',
+    'edit' => 'The ability to edit existing data.'
+  ];
+
+  /**
    * List of controllers this controller depends on to function correctly
    *
    * @var array

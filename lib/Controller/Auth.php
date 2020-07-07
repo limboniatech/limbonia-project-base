@@ -12,6 +12,17 @@ namespace Limbonia\Controller;
 class Auth extends \Limbonia\Controller
 {
   /**
+   * List of components that this controller contains along with their descriptions
+   *
+   * @var array
+   */
+  protected static $hComponent =
+  [
+    'create' => 'The ability to login.',
+    'delete' => 'The ability to logout.'
+  ];
+
+  /**
    * Do whatever setup is needed to make this controller work...
    *
    * @throws Exception on failure
