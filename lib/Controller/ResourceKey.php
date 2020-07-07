@@ -1,5 +1,5 @@
 <?php
-namespace Limbonia\Controller\Base;
+namespace Limbonia\Controller;
 
 /**
  * Limbonia Resource Controller class
@@ -9,7 +9,7 @@ namespace Limbonia\Controller\Base;
  * @author Lonnie Blansett <lonnie@limbonia.tech>
  * @package Limbonia
  */
-class ResourceKey extends \Limbonia\Controller\Base
+class ResourceKey extends \Limbonia\Controller
 {
-  use \Limbonia\Traits\Controller\BaseModel;
+  use \Limbonia\Traits\Controller\HasModel;
 }

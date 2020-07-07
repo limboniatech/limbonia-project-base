@@ -1,5 +1,5 @@
 <?php
-namespace Limbonia\Controller\Base;
+namespace Limbonia\Controller;
 
 /**
  * Limbonia Profile Controller class
@@ -9,9 +9,9 @@ namespace Limbonia\Controller\Base;
  * @author Lonnie Blansett <lonnie@limbonia.tech>
  * @package Limbonia
  */
-class Profile extends \Limbonia\Controller\Base
+class Profile extends \Limbonia\Controller
 {
-  use \Limbonia\Traits\Controller\BaseModel;
+  use \Limbonia\Traits\Controller\HasModel;
 
   /**
    * List of controllers this controller depends on to function correctly

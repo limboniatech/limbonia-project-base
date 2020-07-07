@@ -1,5 +1,5 @@
 <?php
-namespace Limbonia\Controller\Base;
+namespace Limbonia\Controller;
 
 /**
  * Limbonia System Controller class
@@ -9,7 +9,7 @@ namespace Limbonia\Controller\Base;
  * @author Lonnie Blansett <lonnie@limbonia.tech>
  * @package Limbonia
  */
-class System extends \Limbonia\Controller\Base
+class System extends \Limbonia\Controller
 {
   /**
    * Deactivate this controller then return a list of types that were deactivated

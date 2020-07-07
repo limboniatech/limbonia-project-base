@@ -1,5 +1,5 @@
 <?php
-namespace Limbonia\Controller\Base;
+namespace Limbonia\Controller;
 
 /**
  * Limbonia Auth Controller class
@@ -9,7 +9,7 @@ namespace Limbonia\Controller\Base;
  * @author Lonnie Blansett <lonnie@limbonia.tech>
  * @package Limbonia
  */
-class Auth extends \Limbonia\Controller\Base
+class Auth extends \Limbonia\Controller
 {
   /**
    * Do whatever setup is needed to make this controller work...

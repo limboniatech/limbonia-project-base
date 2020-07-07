@@ -11,9 +11,9 @@ namespace Limbonia\Model;
  */
 class User extends \Limbonia\Model\Base\User
 {
-  use \Limbonia\Traits\Model\UserCanBeContact;
-  use \Limbonia\Traits\Model\UserHasRoles;
-  use \Limbonia\Traits\Model\UserHasTickets;
+  use \Limbonia\Traits\Model\User\CanBeContact;
+  use \Limbonia\Traits\Model\User\HasRoles;
+  use \Limbonia\Traits\Model\User\HasTickets;
 
   /**
    * The database schema for creating this model's table in the database
